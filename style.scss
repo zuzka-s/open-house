@@ -34,6 +34,52 @@ h6 {
     opacity: 1;    
 }
 
+#video-invitation {
+    background-image: url(/images/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    padding:  4em 0;
+    margin: 0 0 2em;
+}
+
+#video-invitation .wrapper {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1800px;
+    margin: auto;
+}
+
+#video-invitation .logo{
+    width: 20%;
+    margin: 0 2em;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+#video-invitation .logo img{
+    width: 100%;
+}
+
+@media screen and (max-width: 1180px) {
+    #video-invitation .wrapper {
+        flex-direction: column; 
+        justify-content: center;
+        align-items: center;
+}
+#video-invitation .logo {
+    margin-bottom: 2em;
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+}
+#video-invitation .logo img{
+    max-width: 300px;
+}
+}
+
 
 /* Embed */
 .em-cont {
@@ -43,6 +89,7 @@ h6 {
     width: 100%;
     overflow: hidden;
     margin: 0 auto;
+    padding: 0 4%;
 }
 
 .embed {
@@ -60,6 +107,7 @@ h6 {
     border: 0;
     overflow: hidden;
 }
+
 
 
 /*mtv app*/
