@@ -63,6 +63,19 @@ h6 {
     width: 100%;
 }
 
+.section {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 2000px;
+    margin: auto;
+    padding: 30px;
+    justify-content: flex-start;
+}
+
+#more-episodes {
+    background-color: $secondary;
+}
+
 @media screen and (max-width: 1180px) {
     #video-invitation .wrapper {
         flex-direction: column; 
@@ -242,17 +255,9 @@ div.platformy img {
         .instagram-feed {
             display: flex;
             flex-wrap: wrap;
-            max-width: 2000px;
-            margin: auto;
-            padding: 30px 3vw;
             justify-content: center;
         }
 
-        @media screen and (max-width: 700px) {
-            .instagram-feed {
-            padding: 30px 1vw;
-            }
-        }
         .instagram-feed .instagram-post {
             width: 12.5%;
             min-width: 200px;
